@@ -4,8 +4,13 @@ package praktek03.hadi;
 public class Rectangle {
     double panjang;
     double lebar;
-    
-    
+
+    public Rectangle() {
+            panjang=5;
+            lebar=10;
+        
+    }
+   
     void cetakInfo(){
             System.out.println("===================");
             System.out.println("Panjang : "+panjang);

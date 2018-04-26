@@ -7,9 +7,15 @@ public class Rectangle {
 
     public Rectangle() {
             panjang=5;
-            lebar=10;
-        
+            lebar=10;   
     }
+
+    public Rectangle(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+    
+    
    
     void cetakInfo(){
             System.out.println("===================");

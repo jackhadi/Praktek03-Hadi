@@ -7,6 +7,7 @@ public class RectangleAksi {
         a1.lebar = 30;
         
         a1.cetakInfo();
+        System.out.println("Luas Rectangle adalah : "+a1.HitungLuas());
     }
    
 }
